@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navbar ul li{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.navbar ul li a img {
+    width: 40px;
+    height: 40px;
+}
+
+.head{
+    background-color:#1D1D1F;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head a {
+    color:#2782D8;
+    text-decoration: none;
+    margin-right: 0.3rem;
+}
+.head a:hover {
+    color:#2464A1;
+    text-decoration: underline;
+}
+
+.head p{
+    color: #fff;
+}
+
+.container-16pro{
+    width: 100%;
+    height: 650px;
+    background:url("https://www.apple.com/th/home/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_large_2x.jpg") no-repeat center/cover ;
+
+    .container-t{
+        width: 100%;
+        height: 325px;
+
+
+        p{
+            color: #fff;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            padding-top: 5rem ;
+    
+        }
+    }
+    
+    .container-b{
+        width: 100%;
+        height: 325px;
+
+        ul{
+            width: 100%;
+            height: 230px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            list-style:none;
+
+            li{
+                margin-left:1rem;
+                margin-right:1rem;
+            }
+        }
+        #info a{
+            text-decoration: none;
+            color: #fff;
+            font-size: large;
+            background:#0071E3;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+        }
+        #info a:hover{
+            background:#0071E3;
+        }
+        #buy a{
+            text-decoration: none;
+            color: #0071E3;
+            font-size: large;
+            padding: 1rem 2rem;
+            border:1px solid #0071E3;
+            border-radius: 40px;
+        }
+        #buy a:hover{
+            color: #fff;
+            background:#0071E3;
+        }
+
+        p{
+            width: 100%;
+            height: 95px;
+            color: grey;   
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    }
+
+}
+
+.container-16{
+    margin-top: 1rem;
+    width: 100%;
+    height: 650px;
+    background:url("img/iphone16.jpg") no-repeat center/cover ;
+    
+
+    .container-t{
+        width: 100%;
+        height: 325px;
+
+
+        p{
+            color: #fff;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            padding-top: 5rem ;
+    
+        }
+    }
+    
+    .container-b{
+        width: 100%;
+        height: 325px;
+
+        ul{
+            width: 100%;
+            height: 230px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            list-style:none;
+
+            li{
+                margin-left:1rem;
+                margin-right:1rem;
+            }
+        }
+        #info a{
+            text-decoration: none;
+            color: #fff;
+            font-size: large;
+            background:#0071E3;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+        }
+        #info a:hover{
+            background:#0071E3;
+        }
+        #buy a{
+            text-decoration: none;
+            color: #0071E3;
+            font-size: large;
+            padding: 1rem 2rem;
+            border:1px solid #0071E3;
+            border-radius: 40px;
+        }
+        #buy a:hover{
+            color: #fff;
+            background:#0071E3;
+        }
+
+        p{
+            width: 100%;
+            height: 95px;
+            color: #000;   
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    }
+
+}
+
+.container-watches{
+    margin-top: 1rem;
+    width: 100%;
+    height: 800px;
+    background:url("img/watches.jpg") no-repeat center/cover ;
+
+    .container-t{
+        width: auto;
+        height: 100px;
+        img{
+            height: 60px;
+            width: auto;
+            margin-top: 5rem;
+            padding-left: 25rem;
+        
+    
+        }
+    }
+    .container-m{
+        width: auto;
+        height: 300px;
+    
+        p{
+            margin-top: 3rem;
+            text-align: center;
+            color: #000;
+            font-size: 25px;
+            
+    
+        }
+        ul{
+            width: 100%;
+            height: 230px;
+            display: flex;
+            padding-top:2rem ;
+            justify-content: center;
+            list-style:none;
+            
+    
+            li{
+                margin-left:1rem;
+                margin-right:1rem;
+            }
+        }
+        #info a{
+            text-decoration: none;
+            color: #fff;
+            font-size: large;
+            background:#0071E3;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+        }
+        #info a:hover{
+            background:#0071E3;
+        }
+        #buy a{
+            text-decoration: none;
+            color: #0071E3;
+            font-size: large;
+            padding: 1rem 2rem;
+            border:1px solid #0071E3;
+            border-radius: 40px;
+        }
+        #buy a:hover{
+            color: #fff;
+            background:#0071E3;
+        }
+    } 
+}
+/* other */
+.container-other{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,600px);
+    margin: 10px;
+    
+    
+
+    /* ipad air */
+    .container-ipad-air{
+        
+        background: url("img/ipad_air.jpg") no-repeat center/cover ;
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+       
+
+        .container-t {
+            width: 100%;
+            height: 75px;
+            
+
+            img{
+                width: auto;
+                height: 35px;
+                margin-top:2rem;
+                margin-left:10rem;
+                
+            }
+        }
+
+        .container-m{
+            width: 100%;
+            height: 200px;
+            
+
+            p{
+                margin-top: 0.5rem;
+                text-align: center;
+                color: #000;
+                font-size: 25px;
+                
+            }
+
+            ul{
+                width: 100%;
+                height: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                list-style:none;
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+
+        }
+        .container-b{
+            width: 100%;
+            height: 250px;
+            padding-top: 15rem;
+
+            p{
+                color: #6A7071;
+                text-align: center;
+            }
+        }
+    }
+    .container-ipad-pro{
+        background: url("img/ipadpro.jpg") no-repeat center/cover ;
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        
+        .container-t{
+            width: 100%;
+            height: 75px;
+            
+
+            p{
+                color: #fff;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 1rem;
+
+            }
+        }
+        .container-m{
+            width: 100%;
+            height: 130px;
+            
+
+            p{
+                margin-top: 0.5rem;
+                text-align: center;
+                color: #fff;
+                font-size: 20px; 
+            }
+            ul{
+                width: 100%;
+                height: 90px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                list-style:none;
+                
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+        }
+        .container-b{
+            width: 100%;
+            height: 250px;
+            padding-top: 19rem;
+
+            p{
+                color: #6A7071;
+                text-align: center;
+            }
+        } 
+    }
+
+    /* watch-ultra */
+    .container-watches-ultra{
+        background: url("img/watch_ultra.jpg") no-repeat center/cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        
+
+        .container-t {
+            width: 100%;
+            height: 75px;
+            
+
+            img{
+                width: auto;
+                height: 50px;
+                margin-top:2rem;
+                margin-left:10rem;
+                
+            }
+        }
+        .container-m{
+            width: 100%;
+            height: 200px;
+            
+
+            p{
+                margin-top: 0.5rem;
+                text-align: center;
+                color: #fff;
+                font-size: 25px;
+                
+            }
+
+            ul{
+                width: 100%;
+                height: 75px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                list-style:none;
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+
+        }
+
+
+    }
+
+    /* airpods */
+    .container-airpods{
+        background: url("img/airpods.jpg") no-repeat center/cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        
+
+        .container-t{
+            width: 100%;
+            height: 370px;
+            
+
+            p{
+                color: #fff;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20rem;
+            }
+        }
+        .container-m{
+            width: 100%;
+            height: 170px;
+            
+            padding-top: 2rem;
+
+            p{
+                color: #fff;
+                font-size: 20px;
+                text-align: center;
+                
+            }
+        }
+        .container-b{
+            width: 100%;
+            height: 60px;
+            
+            ul{
+                width: 100%;
+                height: 75px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                list-style:none;
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+        }
+    }
+
+
+    /* macbook */
+    .container-macbook-pro{
+        background: url("img/macbook.jpg") no-repeat center/cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        
+
+        .container-t{
+            width: 100%;
+            height: 100px;
+            
+            
+
+            p{
+                color: #fff;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 2rem;
+            }
+        }
+        .container-m{
+            width: 100%;
+            height: 200px;
+            
+
+            p{
+                margin-top: 0.5rem;
+                text-align: center;
+                color: #fff;
+                font-size: 25px;
+                
+            }
+
+            ul{
+                width: 100%;
+                height: 75px;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                list-style:none;
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+
+        }
+        .container-b{
+            width: 100%;
+            height: 300px;
+            padding-top: 13rem;
+
+            p{
+                color: #6A7071;
+                text-align: center;
+            }
+        }
+    }
+
+    /* homepod */
+    .container-homepod{
+        background: url("img/homepod.jpg") no-repeat center/cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        
+
+        .container-t{
+            width: 100%;
+            height: 100px;
+            
+            p{
+                color: #000;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 2rem;
+            }
+        }
+        .container-m{
+            padding-top: 2rem;
+            ul{
+                width: 100%;
+                height: 75px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                list-style:none;
+                
+        
+                li{
+                    margin-left:1rem;
+                    margin-right:1rem;
+                }
+            }
+            #info a{
+                text-decoration: none;
+                color: #fff;
+                font-size: large;
+                background:#0071E3;
+                padding: 1rem 1rem;
+                border-radius: 40px;
+            }
+            #info a:hover{
+                background:#0071E3;
+            }
+            #buy a{
+                text-decoration: none;
+                color: #0071E3;
+                font-size: large;
+                padding: 1rem 2rem;
+                border:1px solid #0071E3;
+                border-radius: 40px;
+            }
+            #buy a:hover{
+                color: #fff;
+                background:#0071E3;
+            }
+        }
+    }
+}
+footer{
+    background-color: hsl(240, 11%, 96%);
+    
+    .info{
+        color: #7F7F7F;
+        text-align: start;
+        margin-left: 1.5rem;
+        padding-top: 1rem ; 
+        margin-bottom: 0.2rem ;
+        border-bottom: 1px solid grey;
+    }
+
+    .list{
+        padding-top: 3rem ; 
+    }
+
+    .list ul{
+        list-style: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .list ul li{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid grey;
+    }
+    .list ul li a{
+       text-decoration: none;
+       color: #000;
+    }
+     
+}
