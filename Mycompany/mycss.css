@@ -1,0 +1,39 @@
+.headpic{
+    background-image: url("images/bghead.jpg");
+    background-size: cover;
+}
+
+body{
+    background-image: url("images/porsche-normal.jpg");
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+
+.navbar{
+    background-color: rgb(0, 102, 204);
+    border-radius: 30px;
+}
+
+
+.footer{
+    background-color: lightblue;
+}
+
+.form_panel {
+    background-color: #7ccbf0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+
+  .mybutton {
+    display: block;
+    margin: auto;
+  }
+
+  .userinfo {
+    padding: 5px 0 5px 20px;
+    font-size: 12px;
+    background-color: rgb(240, 238, 201);
+  }
